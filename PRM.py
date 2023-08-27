@@ -53,10 +53,10 @@ class prm(object):
         and append it to the adjacency list.
         """
         for coordinate, p in enumerate(self.points):
-            k = 20
+            k = 60
             # We obtain the neighbours of each point
             d = distance.cdist(p.reshape(1, -1), self.points, 'euclidean').flatten()
-            neighbour_index = np.argpartition(d, 40)[:40]
+            neighbour_index = np.argpartition(d, 120)[:120]
 
             for neighbour in neighbour_index:
                 if k >= 0:
