@@ -12,7 +12,7 @@ np.random.seed(4)
 size_x = 10
 size_y = 6
 no_obs = 5
-no_pts = 600
+no_pts = 600 # Number of sample points
 env = environment_2d.Environment(size_x, size_y, no_obs)
 prm_plan = PRM.prm(no_pts, env)
 djk = Dijkstra.Dijkstra_PRM()
