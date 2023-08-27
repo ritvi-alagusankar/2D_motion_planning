@@ -46,7 +46,7 @@ Path before post-processing (KNN)          |  Shortest path after path shortcutt
 
 ## PRM Path
 ### Dijkstra's algorithm
-Dijkstra's algorithm is like a treasure map for finding the shortest path from a starting point to a destination. It works by exploring neighboring points, picking the one that's closest to the starting point, and gradually moving towards the destination. It keeps track of distances as it goes along, ensuring it always takes the shortest route available. Once it reaches the goal, it traces back its steps to reveal the optimal path that leads from the source to the destination.
+Dijkstra's algorithm is used for finding the shortest path from a starting point to a destination. It works by exploring neighboring points, picking the one that's closest to the starting point, and gradually moving towards the destination. It keeps track of distances as it goes along, ensuring it always takes the shortest route available. Once it reaches the goal, it traces back its steps to reveal the optimal path that leads from the source to the destination.
 The PRM path for the given problem is obtained using the Dijkstra's Algorithm
 
 ## Post Processing 
